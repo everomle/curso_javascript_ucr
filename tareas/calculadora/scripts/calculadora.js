@@ -13,7 +13,6 @@ let btnClear = document.getElementById('all-clear');
 let btnEqual = document.getElementsByClassName('equal-sign')[0];
 let btnErase = document.getElementById('clear-sign');
 
-let btnDot = document.getElementsByClassName('dot');
 let btnSumar = document.getElementsByClassName('sumar');
 let btnRestar = document.getElementsByClassName('restar');
 let btnDividir = document.getElementsByClassName('dividir');
@@ -26,7 +25,7 @@ let inputActualizado = '';
 let operadorSeleccionado = '';
 let numerosScreen1 = '';
 let numerosScreen2 = '';
-let resultadoOperacion = '';
+let resultadoOperacion = ''; 
 
 
 function validarDosPuntosScreen1(eventoTargetValue){
